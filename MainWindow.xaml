@@ -49,11 +49,6 @@
                     <StackPanel Width="150"
                                 Margin="0 30">
                         <!-- Klant Menu -->
-                        <ComboBox>
-                            <ComboBoxItem>Nieuwe Klant</ComboBoxItem>
-                            <ComboBoxItem>Klant Bekijken</ComboBoxItem>
-                            <ComboBoxItem>Klant Aanpassen</ComboBoxItem>
-                        </ComboBox>
                             <Button Click="Button1_Click"
                                     Content="Klant"
                                     HorizontalAlignment="Center"
@@ -106,7 +101,7 @@
             <!-- KlantMenu Rechts -->
             <Grid Grid.Column="1">
 
-                <TabControl>
+                <TabControl x:Name="maintab">
                     <TabItem x:Name="tabKlantMenu" 
                              Header="KlantMenu" 
                              Visibility="Visible">
@@ -636,7 +631,7 @@
                     </TabItem>
 
                     <!-- OfferteMenu Rechts -->
-                    <TabItem Header="OfferteMenu" 
+                    <TabItem x:Name="tabOfferteMenu" Header="OfferteMenu" 
                              Visibility="Visible">
                         <TabControl x:Name="offertetabControl">
                             
@@ -706,7 +701,7 @@
                     </TabItem>
 
                     <!-- Factuurmenu Rechts -->
-                    <TabItem Header="FactuurMenu" 
+                    <TabItem x:Name="tabFactuurMenu" Header="FactuurMenu" 
                              Visibility="Visible">
                         <TabControl x:Name="factuurtabControl">
                             

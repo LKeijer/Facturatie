@@ -28,13 +28,13 @@ namespace Offerte_en_Facturatie_UI
 
         private void Button1_Click(object sender, RoutedEventArgs e)
         {
+            maintab.SelectedItem = tabKlantMenu;
             (sender as Button).ContextMenu.IsEnabled = true;
             (sender as Button).ContextMenu.PlacementTarget = (sender as Button);
             (sender as Button).ContextMenu.Placement = System.Windows.Controls.Primitives.PlacementMode.Bottom;
             (sender as Button).ContextMenu.IsOpen = true;
         }
 
-        
         private void BtnNieuweKlant_Click(object sender, RoutedEventArgs e)
         {
             klanttabControl.SelectedItem = tab_NieuweKlant;
@@ -53,6 +53,7 @@ namespace Offerte_en_Facturatie_UI
 
         private void Button2_Click(object sender, RoutedEventArgs e)
         {
+            maintab.SelectedItem = tabOfferteMenu;
             (sender as Button).ContextMenu.IsEnabled = true;
             (sender as Button).ContextMenu.PlacementTarget = (sender as Button);
             (sender as Button).ContextMenu.Placement = System.Windows.Controls.Primitives.PlacementMode.Bottom;
@@ -72,6 +73,7 @@ namespace Offerte_en_Facturatie_UI
 
         private void Button3_Click(object sender, RoutedEventArgs e)
         {
+            maintab.SelectedItem = tabFactuurMenu;
             (sender as Button).ContextMenu.IsEnabled = true;
             (sender as Button).ContextMenu.PlacementTarget = (sender as Button);
             (sender as Button).ContextMenu.Placement = System.Windows.Controls.Primitives.PlacementMode.Bottom;
