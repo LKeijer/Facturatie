@@ -3,6 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
         xmlns:local="clr-namespace:Offerte_en_Facturatie_UI"
         mc:Ignorable="d"
         Title="Offerte en Facturatie" 
@@ -147,9 +148,10 @@
                                                     <StackPanel Grid.Column="1">
                                                         <TextBlock Text="Klant Nummer"
                                                                    Margin="10 10 0 0"/>
-                                                        <TextBox x:Name="Form1_KlantNummer" 
-                                                                 Padding="2"
-                                                                 Margin="10 0 10 0"/>
+                                                        <xctk:MaskedTextBox x:Name="Form1_KlantNummer"
+                                                                            Mask=""
+                                                                            Padding="2"
+                                                                            Margin="10 0 10 0"/>
                                                     </StackPanel>
                                                 </Grid>
 
@@ -275,9 +277,10 @@
                                                     <StackPanel Grid.Column="0">
                                                         <TextBlock Text="Postcode"
                                                                    Margin="10 5 0 0"/>
-                                                        <TextBox x:Name="Form1_Postcode" 
-                                                                 Padding="2"
-                                                                 Margin="10 0 10 0"/>
+                                                        <xctk:MaskedTextBox x:Name="Form1_Postcode" 
+                                                                            Mask="0000 LL"
+                                                                            Padding="2"
+                                                                            Margin="10 0 10 0"/>
                                                     </StackPanel>
 
                                                     <!-- Plaats -->
@@ -301,9 +304,10 @@
                                                     <StackPanel Grid.Column="0">
                                                         <TextBlock Text="Telefoon nummer"
                                                                    Margin="10 10 0 0"/>
-                                                        <TextBox x:Name="Form1_TelNummer" 
-                                                                 Padding="2"
-                                                                 Margin="10 0 10 0"/>
+                                                        <xctk:MaskedTextBox x:Name="Form1_TelNummer" 
+                                                                            Mask="(000) 000-0000"
+                                                                            Padding="2"
+                                                                            Margin="10 0 10 0"/>
                                                     </StackPanel>
 
                                                     <!-- Fax Nummer -->
@@ -547,7 +551,7 @@
                                                     <StackPanel Grid.Column="1">
                                                         <TextBlock Text="Huisnummer"
                                                                    Margin="10 5 0 0"/>
-                                                        <TextBox x:Name="Form2_Huisnummer" 
+                                                        <TextBox x:Name="Form2_Huisnummer"
                                                                  Padding="2"
                                                                  Margin="10 0 10 0"/>
                                                     </StackPanel>
@@ -572,9 +576,10 @@
                                                     <StackPanel Grid.Column="0">
                                                         <TextBlock Text="Postcode"
                                                                    Margin="10 5 0 0"/>
-                                                        <TextBox x:Name="Form2_Postcode" 
-                                                                 Padding="2"
-                                                                 Margin="10 0 10 0"/>
+                                                        <xctk:MaskedTextBox x:Name="Form2_Postcode" 
+                                                                            Mask="0000 LL"
+                                                                            Padding="2"
+                                                                            Margin="10 0 10 0"/>
                                                     </StackPanel>
 
                                                     <!-- Plaats -->
@@ -598,9 +603,10 @@
                                                     <StackPanel Grid.Column="0">
                                                         <TextBlock Text="Telefoon nummer"
                                                                    Margin="10 10 0 0"/>
-                                                        <TextBox x:Name="Form2_TelNummer" 
-                                                                 Padding="2"
-                                                                 Margin="10 0 10 0"/>
+                                                        <xctk:MaskedTextBox x:Name="Form2_TelNummer"
+                                                                            Mask="(000) 000-0000"
+                                                                            Padding="2"
+                                                                            Margin="10 0 10 0"/>
                                                     </StackPanel>
 
                                                     <!-- Fax Nummer -->
