@@ -18,17 +18,21 @@
                 <MenuItem x:Name="menuBestand" 
                           Header="Bestand">
                     <MenuItem x:Name="menuMijnBedrijf" 
+                              Click="MenuMijnBedrijf_Click"
                               Header="Mijn Bedrijf"/>
-                    <MenuItem x:Name="menuAfsluiten" 
+                    <MenuItem x:Name="menuAfsluiten"
+                              Click="MenuAfsluiten_Click"
                               Header="Afsluiten"/>
                 </MenuItem>
 
                 <!-- Over -->
                 <MenuItem x:Name="menuOver" 
                           Header="Over">
-                    <MenuItem x:Name="menuDocumentatie" 
+                    <MenuItem x:Name="menuDocumentatie"
+                              Click="MenuDocumentatie_Click"
                               Header="Documentatie"/>
                     <MenuItem x:Name="menuInfo" 
+                              Click="MenuInfo_Click"
                               Header="Info"/>
                 </MenuItem>
             </Menu>
@@ -304,7 +308,7 @@
                                                     <StackPanel Grid.Column="0">
                                                         <TextBlock Text="Telefoon nummer"
                                                                    Margin="10 10 0 0"/>
-                                                        <xctk:MaskedTextBox x:Name="Form1_TelNummer" 
+                                                        <xctk:MaskedTextBox x:Name="Form1_TelNummer"
                                                                             Mask="(000) 000-0000"
                                                                             Padding="2"
                                                                             Margin="10 0 10 0"/>
