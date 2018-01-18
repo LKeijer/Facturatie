@@ -137,19 +137,19 @@
                                                     <!-- Bedrijfsnaam -->
                                                     <StackPanel Grid.Column="0">
                                                         <TextBlock Text="Bedrijfsnaam"
-                                                               Margin="10 10 0 0"/>
+                                                                   Margin="10 10 0 0"/>
                                                         <TextBox x:Name="Form1_Bedrijfsnaam" 
-                                                             Padding="2"
-                                                             Margin="10 0 10 0"/>
+                                                                 Padding="2"
+                                                                 Margin="10 0 10 0"/>
                                                     </StackPanel>
 
                                                     <!-- Klant Nummer -->
                                                     <StackPanel Grid.Column="1">
                                                         <TextBlock Text="Klant Nummer"
-                                                               Margin="10 10 0 0"/>
+                                                                   Margin="10 10 0 0"/>
                                                         <TextBox x:Name="Form1_KlantNummer" 
-                                                             Padding="2"
-                                                             Margin="10 0 10 0"/>
+                                                                 Padding="2"
+                                                                 Margin="10 0 10 0"/>
                                                     </StackPanel>
                                                 </Grid>
 
@@ -162,19 +162,35 @@
                                                     <!-- KvK Nummer -->
                                                     <StackPanel Grid.Column="0">
                                                         <TextBlock Text="KvK nummer"
-                                                               Margin="10 10 0 0"/>
+                                                                   Margin="10 10 0 0"/>
                                                         <TextBox x:Name="Form1_KvKNummer" 
-                                                             Padding="2"
-                                                             Margin="10 0 10 0"/>
+                                                                 Padding="2"
+                                                                 Margin="10 0 10 0"/>
                                                     </StackPanel>
 
                                                     <!-- BTW Nummer -->
                                                     <StackPanel Grid.Column="1">
                                                         <TextBlock Text="BTW nummer"
-                                                               Margin="10 10 0 0"/>
+                                                                   Margin="10 10 0 0"/>
                                                         <TextBox x:Name="Form1_BTWNummer" 
-                                                             Padding="2"
-                                                             Margin="10 0 10 0"/>
+                                                                 Padding="2"
+                                                                 Margin="10 0 10 0"/>
+                                                    </StackPanel>
+                                                </Grid>
+
+                                                <Grid>
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition Width="*"/>
+                                                        <ColumnDefinition Width="*"/>
+                                                    </Grid.ColumnDefinitions>
+                                                    
+                                                    <!-- Rekening Nummer -->
+                                                    <StackPanel Grid.Column="0">
+                                                        <TextBlock Text="Rekening Nummer"
+                                                                   Margin="10 10 0 0"/>
+                                                        <TextBox x:Name="Form1_RekNummer"
+                                                                 Padding="2"
+                                                                 Margin="10 0 10 0"/>
                                                     </StackPanel>
                                                 </Grid>
 
@@ -184,32 +200,33 @@
                                                         <ColumnDefinition Width="*"/>
                                                         <ColumnDefinition Width="*"/>
                                                     </Grid.ColumnDefinitions>
+                                                    
 
                                                     <!-- Voornaam -->
                                                     <StackPanel Grid.Column="0">
                                                         <TextBlock Text="Contactpersoon Voornaam"
-                                                               Margin="10 15 0 0"/>
+                                                                   Margin="10 15 0 0"/>
                                                         <TextBox x:Name="Form1_ContactVoornaam" 
-                                                             Padding="2"
-                                                             Margin="10 0 10 0"/>
+                                                                 Padding="2"
+                                                                 Margin="10 0 10 0"/>
                                                     </StackPanel>
 
                                                     <!-- tussenvoegsel -->
                                                     <StackPanel Grid.Column="1">
                                                         <TextBlock Text="tussenvoegsel"
-                                                               Margin="10 15 0 0"/>
+                                                                   Margin="10 15 0 0"/>
                                                         <TextBox x:Name="Form1_tussenvoegsel" 
-                                                             Padding="2"
-                                                             Margin="10 0 10 0"/>
+                                                                 Padding="2"
+                                                                 Margin="10 0 10 0"/>
                                                     </StackPanel>
 
                                                     <!-- Achternaam -->
                                                     <StackPanel Grid.Column="2">
                                                         <TextBlock Text="Achternaam"
-                                                               Margin="10 15 0 0"/>
+                                                                   Margin="10 15 0 0"/>
                                                         <TextBox x:Name="Form1_Achternaam" 
-                                                             Padding="2"
-                                                             Margin="10 0 10 0"/>
+                                                                 Padding="2"
+                                                                 Margin="10 0 10 0"/>
                                                     </StackPanel>
                                                 </Grid>
 
@@ -223,28 +240,28 @@
                                                     <!-- Straatnaam -->
                                                     <StackPanel Grid.Column="0">
                                                         <TextBlock Text="Straatnaam"
-                                                               Margin="10 5 0 0"/>
+                                                                   Margin="10 5 0 0"/>
                                                         <TextBox x:Name="Form1_Straatnaam" 
-                                                             Padding="2"
-                                                             Margin="10 0 10 0"/>
+                                                                 Padding="2"
+                                                                 Margin="10 0 10 0"/>
                                                     </StackPanel>
 
                                                     <!-- Huisnummer -->
                                                     <StackPanel Grid.Column="1">
                                                         <TextBlock Text="Huisnummer"
-                                                               Margin="10 5 0 0"/>
+                                                                   Margin="10 5 0 0"/>
                                                         <TextBox x:Name="Form1_Huisnummer" 
-                                                             Padding="2"
-                                                             Margin="10 0 10 0"/>
+                                                                 Padding="2"
+                                                                 Margin="10 0 10 0"/>
                                                     </StackPanel>
 
                                                     <!-- Toevoeging -->
                                                     <StackPanel Grid.Column="2">
                                                         <TextBlock Text="Toevoeging"
-                                                               Margin="10 5 0 0"/>
+                                                                   Margin="10 5 0 0"/>
                                                         <TextBox x:Name="Form1_Toevoeging" 
-                                                             Padding="2"
-                                                             Margin="10 0 10 0"/>
+                                                                 Padding="2"
+                                                                 Margin="10 0 10 0"/>
                                                     </StackPanel>
                                                 </Grid>
 
@@ -257,19 +274,19 @@
                                                     <!-- Postcode -->
                                                     <StackPanel Grid.Column="0">
                                                         <TextBlock Text="Postcode"
-                                                               Margin="10 5 0 0"/>
+                                                                   Margin="10 5 0 0"/>
                                                         <TextBox x:Name="Form1_Postcode" 
-                                                             Padding="2"
-                                                             Margin="10 0 10 0"/>
+                                                                 Padding="2"
+                                                                 Margin="10 0 10 0"/>
                                                     </StackPanel>
 
                                                     <!-- Plaats -->
                                                     <StackPanel Grid.Column="1">
                                                         <TextBlock Text="Plaats"
-                                                               Margin="10 5 0 0"/>
+                                                                   Margin="10 5 0 0"/>
                                                         <TextBox x:Name="Form1_Plaats" 
-                                                             Padding="2"
-                                                             Margin="10 0 10 0"/>
+                                                                 Padding="2"
+                                                                 Margin="10 0 10 0"/>
                                                     </StackPanel>
                                                 </Grid>
 
@@ -283,28 +300,28 @@
                                                     <!-- Telefoon Nummer -->
                                                     <StackPanel Grid.Column="0">
                                                         <TextBlock Text="Telefoon nummer"
-                                                               Margin="10 10 0 0"/>
+                                                                   Margin="10 10 0 0"/>
                                                         <TextBox x:Name="Form1_TelNummer" 
-                                                             Padding="2"
-                                                             Margin="10 0 10 0"/>
+                                                                 Padding="2"
+                                                                 Margin="10 0 10 0"/>
                                                     </StackPanel>
 
                                                     <!-- Fax Nummer -->
                                                     <StackPanel Grid.Column="1">
                                                         <TextBlock Text="Fax Nummer"
-                                                               Margin="10 10 0 0"/>
+                                                                   Margin="10 10 0 0"/>
                                                         <TextBox x:Name="Form1_FaxNummer" 
-                                                             Padding="2"
-                                                             Margin="10 0 10 0"/>
+                                                                 Padding="2"
+                                                                 Margin="10 0 10 0"/>
                                                     </StackPanel>
 
                                                     <!-- E-Mail -->
                                                     <StackPanel Grid.Column="2">
                                                         <TextBlock Text="E-Mail adres"
-                                                               Margin="10 10 0 0"/>
+                                                                   Margin="10 10 0 0"/>
                                                         <TextBox x:Name="Form1_EMail" 
-                                                             Padding="2"
-                                                             Margin="10 0 10 0"/>
+                                                                 Padding="2"
+                                                                 Margin="10 0 10 0"/>
                                                     </StackPanel>
                                                 </Grid>
 
@@ -317,10 +334,10 @@
                                                     <!-- Website -->
                                                     <StackPanel Grid.Column="0" Grid.ColumnSpan="2">
                                                         <TextBlock Text="Website"
-                                                               Margin="10 15 0 0"/>
+                                                                   Margin="10 15 0 0"/>
                                                         <TextBox x:Name="Form1_Website" 
-                                                             Padding="2"
-                                                             Margin="10 0 10 10"/>
+                                                                 Padding="2"
+                                                                 Margin="10 0 10 10"/>
                                                     </StackPanel>
                                                 </Grid>
 
@@ -332,14 +349,14 @@
 
                                                     <!-- Accepteer -->
                                                     <Button x:Name="Form1_btnAccepteer" 
-                                                        Content="Accepteer"
-                                                        Background="LightBlue"
-                                                        Grid.Column="0"/>
+                                                            Content="Accepteer"
+                                                            Background="LightBlue"
+                                                            Grid.Column="0"/>
                                                     <!-- Annuleer -->
                                                     <Button x:Name="Form1_btnAnnuleer" 
-                                                        Content="Annuleer"
-                                                        Background="IndianRed"
-                                                        Grid.Column="1"/>
+                                                            Content="Annuleer"
+                                                            Background="IndianRed"
+                                                            Grid.Column="1"/>
                                                 </Grid>
                                             </StackPanel>
                                         </Grid>
@@ -418,19 +435,19 @@
                                                     <!-- Bedrijfsnaam -->
                                                     <StackPanel Grid.Column="0">
                                                         <TextBlock Text="Bedrijfsnaam"
-                                                           Margin="10 10 0 0"/>
+                                                                   Margin="10 10 0 0"/>
                                                         <TextBox x:Name="Form2_Bedrijfsnaam" 
-                                                         Padding="2"
-                                                         Margin="10 0 10 0"/>
+                                                                 Padding="2"
+                                                                 Margin="10 0 10 0"/>
                                                     </StackPanel>
 
                                                     <!-- Klant Nummer -->
                                                     <StackPanel Grid.Column="1">
                                                         <TextBlock Text="Klant Nummer"
-                                                           Margin="10 10 0 0"/>
+                                                                   Margin="10 10 0 0"/>
                                                         <TextBox x:Name="Form2_KlantNummer" 
-                                                         Padding="2"
-                                                         Margin="10 0 10 0"/>
+                                                                 Padding="2"
+                                                                 Margin="10 0 10 0"/>
                                                     </StackPanel>
                                                 </Grid>
 
@@ -443,19 +460,35 @@
                                                     <!-- KvK Nummer -->
                                                     <StackPanel Grid.Column="0">
                                                         <TextBlock Text="KvK nummer"
-                                                           Margin="10 10 0 0"/>
+                                                                   Margin="10 10 0 0"/>
                                                         <TextBox x:Name="Form2_KvKNummer" 
-                                                         Padding="2"
-                                                         Margin="10 0 10 0"/>
+                                                                 Padding="2"
+                                                                 Margin="10 0 10 0"/>
                                                     </StackPanel>
 
                                                     <!-- BTW Nummer -->
                                                     <StackPanel Grid.Column="1">
                                                         <TextBlock Text="BTW nummer"
-                                                           Margin="10 10 0 0"/>
+                                                                   Margin="10 10 0 0"/>
                                                         <TextBox x:Name="Form2_BTWNummer" 
-                                                         Padding="2"
-                                                         Margin="10 0 10 0"/>
+                                                                 Padding="2"
+                                                                 Margin="10 0 10 0"/>
+                                                    </StackPanel>
+                                                </Grid>
+
+                                                <Grid>
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition Width="*"/>
+                                                        <ColumnDefinition Width="*"/>
+                                                    </Grid.ColumnDefinitions>
+
+                                                    <!-- Rekening Nummer -->
+                                                    <StackPanel Grid.Column="0">
+                                                        <TextBlock Text="Rekening Nummer"
+                                                                   Margin="10 10 0 0"/>
+                                                        <TextBox x:Name="Form2_RekNummer"
+                                                                 Padding="2"
+                                                                 Margin="10 0 10 0"/>
                                                     </StackPanel>
                                                 </Grid>
 
@@ -469,28 +502,28 @@
                                                     <!-- Voornaam -->
                                                     <StackPanel Grid.Column="0">
                                                         <TextBlock Text="Contactpersoon Voornaam"
-                                                           Margin="10 15 0 0"/>
+                                                                   Margin="10 15 0 0"/>
                                                         <TextBox x:Name="Form2_ContactVoornaam" 
-                                                         Padding="2"
-                                                         Margin="10 0 10 0"/>
+                                                                 Padding="2"
+                                                                 Margin="10 0 10 0"/>
                                                     </StackPanel>
 
                                                     <!-- tussenvoegsel -->
                                                     <StackPanel Grid.Column="1">
                                                         <TextBlock Text="tussenvoegsel"
-                                                           Margin="10 15 0 0"/>
+                                                                   Margin="10 15 0 0"/>
                                                         <TextBox x:Name="Form2_tussenvoegsel" 
-                                                         Padding="2"
-                                                         Margin="10 0 10 0"/>
+                                                                 Padding="2"
+                                                                 Margin="10 0 10 0"/>
                                                     </StackPanel>
 
                                                     <!-- Achternaam -->
                                                     <StackPanel Grid.Column="2">
                                                         <TextBlock Text="Achternaam"
-                                                           Margin="10 15 0 0"/>
+                                                                   Margin="10 15 0 0"/>
                                                         <TextBox x:Name="Form2_Achternaam" 
-                                                         Padding="2"
-                                                         Margin="10 0 10 0"/>
+                                                                 Padding="2"
+                                                                 Margin="10 0 10 0"/>
                                                     </StackPanel>
                                                 </Grid>
 
@@ -504,28 +537,28 @@
                                                     <!-- Straatnaam -->
                                                     <StackPanel Grid.Column="0">
                                                         <TextBlock Text="Straatnaam"
-                                                           Margin="10 5 0 0"/>
+                                                                   Margin="10 5 0 0"/>
                                                         <TextBox x:Name="Form2_Straatnaam" 
-                                                         Padding="2"
-                                                         Margin="10 0 10 0"/>
+                                                                 Padding="2"
+                                                                 Margin="10 0 10 0"/>
                                                     </StackPanel>
 
                                                     <!-- Huisnummer -->
                                                     <StackPanel Grid.Column="1">
                                                         <TextBlock Text="Huisnummer"
-                                                           Margin="10 5 0 0"/>
+                                                                   Margin="10 5 0 0"/>
                                                         <TextBox x:Name="Form2_Huisnummer" 
-                                                         Padding="2"
-                                                         Margin="10 0 10 0"/>
+                                                                 Padding="2"
+                                                                 Margin="10 0 10 0"/>
                                                     </StackPanel>
 
                                                     <!-- Toevoeging -->
                                                     <StackPanel Grid.Column="2">
                                                         <TextBlock Text="Toevoeging"
-                                                           Margin="10 5 0 0"/>
+                                                                   Margin="10 5 0 0"/>
                                                         <TextBox x:Name="Form2_Toevoeging" 
-                                                         Padding="2"
-                                                         Margin="10 0 10 0"/>
+                                                                 Padding="2"
+                                                                 Margin="10 0 10 0"/>
                                                     </StackPanel>
                                                 </Grid>
 
@@ -538,19 +571,19 @@
                                                     <!-- Postcode -->
                                                     <StackPanel Grid.Column="0">
                                                         <TextBlock Text="Postcode"
-                                                           Margin="10 5 0 0"/>
+                                                                   Margin="10 5 0 0"/>
                                                         <TextBox x:Name="Form2_Postcode" 
-                                                         Padding="2"
-                                                         Margin="10 0 10 0"/>
+                                                                 Padding="2"
+                                                                 Margin="10 0 10 0"/>
                                                     </StackPanel>
 
                                                     <!-- Plaats -->
                                                     <StackPanel Grid.Column="1">
                                                         <TextBlock Text="Plaats"
-                                                           Margin="10 5 0 0"/>
+                                                                   Margin="10 5 0 0"/>
                                                         <TextBox x:Name="Form2_Plaats" 
-                                                         Padding="2"
-                                                         Margin="10 0 10 0"/>
+                                                                 Padding="2"
+                                                                 Margin="10 0 10 0"/>
                                                     </StackPanel>
                                                 </Grid>
 
@@ -564,28 +597,28 @@
                                                     <!-- Telefoon Nummer -->
                                                     <StackPanel Grid.Column="0">
                                                         <TextBlock Text="Telefoon nummer"
-                                                           Margin="10 10 0 0"/>
+                                                                   Margin="10 10 0 0"/>
                                                         <TextBox x:Name="Form2_TelNummer" 
-                                                         Padding="2"
-                                                         Margin="10 0 10 0"/>
+                                                                 Padding="2"
+                                                                 Margin="10 0 10 0"/>
                                                     </StackPanel>
 
                                                     <!-- Fax Nummer -->
                                                     <StackPanel Grid.Column="1">
                                                         <TextBlock Text="Fax Nummer"
-                                                           Margin="10 10 0 0"/>
+                                                                   Margin="10 10 0 0"/>
                                                         <TextBox x:Name="Form2_FaxNummer" 
-                                                         Padding="2"
-                                                         Margin="10 0 10 0"/>
+                                                                 Padding="2"
+                                                                 Margin="10 0 10 0"/>
                                                     </StackPanel>
 
                                                     <!-- E-Mail -->
                                                     <StackPanel Grid.Column="2">
                                                         <TextBlock Text="E-Mail adres"
-                                                           Margin="10 10 0 0"/>
+                                                                   Margin="10 10 0 0"/>
                                                         <TextBox x:Name="Form2_EMail" 
-                                                         Padding="2"
-                                                         Margin="10 0 10 0"/>
+                                                                 Padding="2"
+                                                                 Margin="10 0 10 0"/>
                                                     </StackPanel>
                                                 </Grid>
 
@@ -597,10 +630,10 @@
                                                     <!-- Website -->
                                                     <StackPanel Grid.Column="0">
                                                         <TextBlock Text="Website"
-                                                           Margin="10 15 0 0"/>
+                                                                   Margin="10 15 0 0"/>
                                                         <TextBox x:Name="Form2_Website" 
-                                                         Padding="2"
-                                                         Margin="10 0 10 10"/>
+                                                                 Padding="2"
+                                                                 Margin="10 0 10 10"/>
                                                     </StackPanel>
                                                 </Grid>
 
@@ -612,14 +645,14 @@
 
                                                     <!-- Accepteer -->
                                                     <Button x:Name="Form2_btnAccepteer" 
-                                                    Content="Accepteer"
-                                                    Background="LightBlue"
-                                                    Grid.Column="0"/>
+                                                            Content="Accepteer"
+                                                            Background="LightBlue"
+                                                            Grid.Column="0"/>
                                                     <!-- Annuleer -->
                                                     <Button x:Name="Form2_btnAnnuleer" 
-                                                    Content="Annuleer"
-                                                    Background="IndianRed"
-                                                    Grid.Column="1"/>
+                                                            Content="Annuleer"
+                                                            Background="IndianRed"
+                                                            Grid.Column="1"/>
                                                 </Grid>
                                             </StackPanel>
                                         </Grid>
