@@ -14,7 +14,7 @@ namespace Offerte_en_Facturatie_UI
         string myConnecThong = ConfigurationManager.ConnectionStrings["conString"].ConnectionString; //Gets the connectionstring from the app.config file in this solution.
         List<string> inputList = new List<string>();
 
-        public Klant (List<string> input)
+        public Klant (List<string> input) 
         {
             this.inputList = input;
         }
