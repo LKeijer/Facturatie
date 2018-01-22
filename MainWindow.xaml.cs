@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Diagnostics;
-using System.IO
+using System.IO;
 
 
 namespace Offerte_en_Facturatie_UI
@@ -128,6 +128,33 @@ namespace Offerte_en_Facturatie_UI
             //String openPDFFile = @"c:\Documentatie\Documentatie.pdf";
             //System.IO.File.WriteAllBytes(openPDFFile, Properties.Resources.Documentatie;
             //Process.Start(openPDFFile);
+        }
+
+        private void Form1_btnAccepteer_Click(object sender, RoutedEventArgs e)
+        {
+            // Initialiseer de lijst voor gebruik
+            List<string> list = new List<string>();
+            //Vul de lijst met de ingevulde waarden in de tekstvelden voor het toevoegen van een nieuwe klant
+            list.Add(Form1_Bedrijfsnaam.Text);
+            list.Add(Form1_KvKNummer.Text);
+            list.Add(Form1_BTWNummer.Text);
+            list.Add(Form1_RekNummer.Text);
+            list.Add(Form1_ContactVoornaam.Text);
+            list.Add(Form1_tussenvoegsel.Text);
+            list.Add(Form1_Achternaam.Text);
+            list.Add(Form1_Straatnaam.Text);
+            list.Add(Form1_Huisnummer.Text);
+            list.Add(Form1_Toevoeging.Text);
+            list.Add(Form1_Postcode.Text);
+            list.Add(Form1_Plaats.Text);
+            list.Add(Form1_TelNummer.Text);
+            list.Add(Form1_FaxNummer.Text);
+            list.Add(Form1_EMail.Text);
+            list.Add(Form1_Website.Text);
+
+            Klant klant = new Klant(list); // maakt een nieuw object aan van de Klant klasse met de waarden ingevuld in de lijst.
+            klant.InsertKlant();
+
         }
     }
 }
